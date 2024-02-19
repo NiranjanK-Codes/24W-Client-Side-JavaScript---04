@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #fceabb; 
+}
+
+button {
+    padding: 15px 25px; 
+    margin: 8px;
+    font-size: 18px; 
+    cursor: pointer;
+    background-color: #21b042; 
+    color: #fff;
+    border: none;
+    border-radius: 8px; 
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff594f;
+}
+
+#storyOutput {
+    margin-top: 30px; 
+    font-size: 20px; 
+    color: #333; 
+}

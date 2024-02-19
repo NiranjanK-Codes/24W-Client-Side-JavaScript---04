@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storymaker</title>
+    <link rel="stylesheet" type="text/css" href="javascript.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #storyOutput {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+    <script src="javascript.js"></script>
+</head>
+<body>
+
+<button onclick="selectWord(0)">Adventure</button>
+<button onclick="selectWord(1)">Magical</button>
+<button onclick="selectWord(2)">Funny</button>
+<button onclick="selectWord(3)">Space</button>
+<button onclick="selectWord(4)">Mystery</button>
+
+<button onclick="generateStory()">See Story</button>
+
+<div id="storyOutput"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
